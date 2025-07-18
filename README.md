@@ -1,29 +1,23 @@
-🌤️ Weather App - Java GUI Project
+# Weather App - Java GUI Project
 
 A simple and stylish Java GUI application to fetch real-time weather data using the OpenWeatherMap API.  
 This project demonstrates API integration, JSON parsing, exception handling, and a user-friendly interface using Java Swing.
 
----
+# Features
+- Input city name via GUI
+- Fetch real-time temperature, humidity, and weather description
+- Stylish and responsive GUI using Java Swing
+- Exception handling for invalid or unknown city names
+- Integration with OpenWeatherMap API using HTTP requests
+- Displays error messages if the city is not found
 
-🚀 Features
-- 📥 Input city name via GUI
-- 🌤️ Fetch real-time temperature, humidity, and weather description
-- 🎨 Stylish and responsive GUI using Java Swing
-- ⚙️ Exception handling for invalid or unknown city names
-- 🛠️ Integration with OpenWeatherMap API using HTTP requests
-- ✅ Displays error messages if the city is not found
-
----
-
-🛠️ Technologies Used
+# Technologies Used
 - Java
 - Java Swing (for GUI)
 - HTTP API requests
 - JSON parsing using `org.json` library
 
----
-
-📂 Project Structure
+# Project Structure
 WeatherApp Project/
 │
 ├── WeatherGUI.java
@@ -31,22 +25,18 @@ WeatherApp Project/
 ├── README.md
 
 
----
+# Setup Instructions
 
-⚙️ Setup Instructions
-
-✅ Prerequisites:
+Prerequisites:
 - Java JDK installed
 - Download JSON library: [json-20210307.jar](https://repo1.maven.org/maven2/org/json/json/20210307/json-20210307.jar)
 
----
-
-🔨 Compile the Project:
+# Compile the Project:
 If the JAR is in the same folder:
 ```bash
 javac -cp ".;json-20210307.jar" WeatherGUI.java
 
-▶️ Run the Project:
+> Run the Project:
 If the JAR is in the same folder: java -cp ".;json-20210307.jar" WeatherGUI
 If the JAR is in a lib folder: java -cp ".;lib/json-20210307.jar" WeatherGUI
 
@@ -68,27 +58,25 @@ If the JAR is in a lib folder: java -cp ".;lib/json-20210307.jar" WeatherGUI
 
 ---
 
-📊 Example Output
+Example Output
 
-✅ Correct Input:
+Correct Input:
 When you enter a valid city like Hyderabad, the app shows:
 City: Hyderabad
 Temperature: 24.8 °C
 Weather: overcast clouds
 Humidity: 79%
 
-❌ Incorrect Input:
+Incorrect Input:
 When you enter an invalid city name like UnknownCity123:
 City not found. Please enter a valid city name.
 
-⚠️ Empty Input:
+Empty Input:
 When you click the button without entering a city:
 Please enter a city name.
 
----
 
-
-💡Future Improvements
+# Future Improvements
 -Add loading spinner while fetching data
 
 -Add country selection
@@ -100,10 +88,10 @@ Please enter a city name.
 
 ---
 
-✨Author
-vishnureddy2005
+# Author
+MS Abhishek
 
 ---
 
-🌐 API Source
+# API Source
 OpenWeatherMap API
